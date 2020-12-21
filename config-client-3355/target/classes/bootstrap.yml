@@ -1,5 +1,4 @@
-server:
-  port: 3355
+
 
 spring:
   application:
@@ -16,8 +15,5 @@ eureka:
     service-url:
       deafultZone: http://localhost:7001/eureka
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+server:
+  port: 3355

@@ -3,8 +3,49 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:prod" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ac58fa9-e318-44ed-8e39-fd72ab3361f6" name="Default Changelist" comment="" />
+    <list default="true" id="8ac58fa9-e318-44ed-8e39-fd72ab3361f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config-client-3355/src/main/java/com/demo/springcloud/ConfigClientMain3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client-3355/src/main/java/com/demo/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-center-3344/src/main/java/com/demo/springcloud/ConfigCenterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-center-3344/src/main/java/com/demo/springcloud/ConfigCenterMain3344.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-feign-hystrix-order-80/src/main/java/com/demo/springcloud/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-feign-hystrix-order-80/src/main/java/com/demo/springcloud/HystrixOrderMain80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-feign-order-80/src/main/java/com/demo/springcloud/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-feign-order-80/src/main/java/com/demo/springcloud/FeignOrderMain80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-hystrix-dashboard-9001/src/main/java/com/demo/springcloud/HystrixDashBoardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard-9001/src/main/java/com/demo/springcloud/HystrixDashBoardMain9001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order-80/src/main/java/com/demo/springcloud/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order-80/src/main/java/com/demo/springcloud/OrderMain80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server-7001/src/main/java/com/demo/springcloud/EurekaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-7001/src/main/java/com/demo/springcloud/EurekaServerMain7001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server-7002/src/main/java/springcloud/EurekaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/java/springcloud/EurekaServerMain7002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-gateway-9527/src/main/java/com/demo/springcloud/GateWayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-gateway-9527/src/main/java/com/demo/springcloud/GateWayMain9527.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-consul-payment-8005/src/main/java/springcloud/PaymentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-consul-payment-8005/src/main/java/springcloud/ConsulPaymentMain8005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-hystrix-payment-8001/src/main/java/com/demo/springcloud/PaymentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-hystrix-payment-8001/src/main/java/com/demo/springcloud/HystrixPaymentMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment-8001/src/main/java/com/demo/springcloud/PaymentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment-8001/src/main/java/com/demo/springcloud/PaymentMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment-8002/src/main/java/com/demo/springcloud/PaymentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment-8002/src/main/java/com/demo/springcloud/PaymentMain8002.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +131,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,26 +147,39 @@
     </configuration>
     <configuration name="ConfigCenterMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-center-3344" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.ConfigCenterMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-client-3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.ConfigClientMain3355" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EurekaMain (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server-7002" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.EurekaMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.EurekaServerMain7002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EurekaMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server-7001" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.EurekaMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.EurekaServerMain7001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GateWayMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GateWayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gateway-gateway-9527" />
       <extension name="coverage">
         <pattern>
@@ -133,12 +187,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.GateWayMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.GateWayMain9527" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixDashBoardMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="HystrixDashBoardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="consumer-hystrix-dashboard-9001" />
       <extension name="coverage">
         <pattern>
@@ -146,25 +200,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.HystrixDashBoardMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.HystrixDashBoardMain9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderMain (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="consumer-feign-order-80" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.OrderMain" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderMain (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="HystrixOrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="consumer-feign-hystrix-order-80" />
       <extension name="coverage">
         <pattern>
@@ -172,19 +213,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.OrderMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.HystrixOrderMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="provider-payment-8004" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.PaymentMain" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentMain (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="HystrixPaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="provider-hystrix-payment-8001" />
       <extension name="coverage">
         <pattern>
@@ -192,25 +226,32 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.PaymentMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.HystrixPaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-consul-payment-8005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.ConsulPaymentMain8005" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PaymentMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider-payment-8001" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.PaymentMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.PaymentMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GateWayMain" />
-        <item itemvalue="Spring Boot.PaymentMain (4)" />
-        <item itemvalue="Spring Boot.HystrixDashBoardMain" />
-        <item itemvalue="Spring Boot.OrderMain (2)" />
-        <item itemvalue="Spring Boot.OrderMain (1)" />
+        <item itemvalue="Spring Boot.ConfigClientMain3355" />
+        <item itemvalue="Spring Boot.GateWayMain9527" />
+        <item itemvalue="Spring Boot.HystrixPaymentMain8001" />
+        <item itemvalue="Spring Boot.HystrixDashBoardMain9001" />
+        <item itemvalue="Spring Boot.HystrixOrderMain80" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +270,7 @@
       <workItem from="1608344837660" duration="15241000" />
       <workItem from="1608431818496" duration="2882000" />
       <workItem from="1608436348465" duration="10039000" />
-      <workItem from="1608519534262" duration="4537000" />
+      <workItem from="1608519534262" duration="6538000" />
     </task>
     <servers />
   </component>
@@ -247,7 +288,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="prod/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -260,10 +301,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1608345735664">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1608533004643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1608345735664" />
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1608533004643" />
     <state x="343" y="361" key="#SQL_Dialects" timestamp="1608275495754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,38 +337,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608275743141" />
-    <state width="1293" height="193" key="GridCell.Tab.0.bottom" timestamp="1608480220018">
+    <state width="1293" height="277" key="GridCell.Tab.0.bottom" timestamp="1608533362775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608480220018" />
-    <state width="1293" height="193" key="GridCell.Tab.0.center" timestamp="1608480220018">
+    <state width="1293" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608533362775" />
+    <state width="1293" height="277" key="GridCell.Tab.0.center" timestamp="1608533362774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="193" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608480220018" />
-    <state width="1293" height="193" key="GridCell.Tab.0.left" timestamp="1608480220018">
+    <state width="1293" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608533362774" />
+    <state width="1293" height="277" key="GridCell.Tab.0.left" timestamp="1608533362774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="193" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608480220018" />
-    <state width="1293" height="193" key="GridCell.Tab.0.right" timestamp="1608480220018">
+    <state width="1293" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608533362774" />
+    <state width="1293" height="277" key="GridCell.Tab.0.right" timestamp="1608533362774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="193" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608480220018" />
-    <state width="1293" height="193" key="GridCell.Tab.1.bottom" timestamp="1608480220019">
+    <state width="1293" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608533362774" />
+    <state width="1293" height="277" key="GridCell.Tab.1.bottom" timestamp="1608533362775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="193" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608480220019" />
-    <state width="1293" height="193" key="GridCell.Tab.1.center" timestamp="1608480220019">
+    <state width="1293" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608533362775" />
+    <state width="1293" height="277" key="GridCell.Tab.1.center" timestamp="1608533362775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="193" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608480220019" />
-    <state width="1293" height="193" key="GridCell.Tab.1.left" timestamp="1608480220019">
+    <state width="1293" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608533362775" />
+    <state width="1293" height="277" key="GridCell.Tab.1.left" timestamp="1608533362775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="193" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608480220019" />
-    <state width="1293" height="193" key="GridCell.Tab.1.right" timestamp="1608480220019">
+    <state width="1293" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608533362775" />
+    <state width="1293" height="277" key="GridCell.Tab.1.right" timestamp="1608533362775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="193" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608480220019" />
+    <state width="1293" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608533362775" />
     <state width="1293" height="274" key="GridCell.Tab.2.bottom" timestamp="1608282181714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
