@@ -12,11 +12,13 @@
         <module name="consumer-feign-hystrix-order-80" />
         <module name="eureka-server-7002" />
         <module name="consumer-hystrix-dashboard-9001" />
+        <module name="stream-rabbitmq-provider-8801" />
         <module name="consumer-order-80" />
+        <module name="stream-rabbitmq-consumer-8802" />
         <module name="gateway-gateway-9527" />
         <module name="config-client-3366" />
+        <module name="config-client-3355" />
         <module name="config-center-3344" />
-        <module name="config-center-3355" />
         <module name="consumer-feign-order-80" />
         <module name="provider-hystrix-payment-8001" />
         <module name="provider-payment-8002" />
