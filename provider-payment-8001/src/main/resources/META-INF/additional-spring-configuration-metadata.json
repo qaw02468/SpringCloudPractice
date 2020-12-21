@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "spring.mybatis",
+      "type": "java.lang.String",
+      "description": "Description for spring.mybatis."
+    },
+    {
+      "name": "eureka.client.instance.instance-id",
+      "type": "java.lang.String",
+      "description": "Description for eureka.client.instance.instance-id."
+    },
+    {
+      "name": "eureka.client.fetchRegistry.defaultZone",
+      "type": "java.lang.String",
+      "description": "Description for eureka.client.fetchRegistry.defaultZone."
+    }
+  ] }
