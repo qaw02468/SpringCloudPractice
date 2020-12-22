@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/api-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-alibaba-client-3377/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-alibaba-client-3377/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-center-3344/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-center-3344/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-client-3355/src/main/java" charset="UTF-8" />

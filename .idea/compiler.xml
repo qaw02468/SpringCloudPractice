@@ -20,6 +20,7 @@
         <module name="config-client-3355" />
         <module name="config-center-3344" />
         <module name="consumer-alibaba-order-83" />
+        <module name="config-alibaba-client-3377" />
         <module name="consumer-feign-order-80" />
         <module name="provider-hystrix-payment-8001" />
         <module name="provider-payment-8002" />
