@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-commons" />
+        <module name="sentinel-alibaba-service" />
         <module name="provider-consul-payment-8005" />
         <module name="eureka-server-7001" />
         <module name="consumer-feign-hystrix-order-80" />

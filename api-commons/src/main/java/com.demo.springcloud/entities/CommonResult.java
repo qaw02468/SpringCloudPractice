@@ -20,4 +20,9 @@ public class CommonResult<T> {
         this.message = message;
         this.data = data;
     }
+
+    public CommonResult(Integer code, String message) {
+        this.code = code;
+        this.message = message;
+    }
 }

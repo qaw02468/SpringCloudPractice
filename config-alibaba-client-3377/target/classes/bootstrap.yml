@@ -1,4 +1,3 @@
-
 server:
   port: 3377
 spring:
@@ -11,3 +10,5 @@ spring:
       config:
         server-addr: localhost:8848
         file-extension: yaml
+        namespace: 746f5c42-aef8-4e3f-aaf9-88e25f0d9c49
+        group: DEV_GROUP

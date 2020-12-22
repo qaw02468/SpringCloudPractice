@@ -1,14 +1,17 @@
-
 server:
-  port: 9001
-
+  port: 8401
 spring:
   application:
-    name: nacos-payment-provider
+    name: cloudalibaba-sentinel-service
   cloud:
     nacos:
       discovery:
         server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+        port: 8858
+
 management:
   endpoints:
     web:
