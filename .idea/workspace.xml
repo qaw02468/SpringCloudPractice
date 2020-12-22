@@ -29,35 +29,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ac58fa9-e318-44ed-8e39-fd72ab3361f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-consumer-8802/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-consumer-8802/src/main/java/com/demo/springcloud/StreamMqMain8802.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-consumer-8802/src/main/java/com/demo/springcloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-consumer-8802/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-provider-8801/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-provider-8801/src/main/java/com/demo/springcloud/StreamMqMain8801.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-provider-8801/src/main/java/com/demo/springcloud/controller/SendMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-provider-8801/src/main/java/com/demo/springcloud/serivce/IMessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-provider-8801/src/main/java/com/demo/springcloud/serivce/IMessageProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq-provider-8801/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-center-3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-center-3344/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-center-3344/target/classes/com/demo/springcloud/ConfigCenterMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client-3355/target/classes/com/demo/springcloud/controller/ConfigClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-client-3355/target/classes/com/demo/springcloud/controller/ConfigClientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-feign-hystrix-order-80/target/classes/com/demo/springcloud/OrderMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-feign-order-80/target/classes/com/demo/springcloud/OrderMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-hystrix-dashboard-9001/target/classes/com/demo/springcloud/HystrixDashBoardMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-order-80/target/classes/com/demo/springcloud/OrderMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-7001/target/classes/com/demo/springcloud/EurekaMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-7002/target/classes/springcloud/EurekaMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-gateway-9527/target/classes/com/demo/springcloud/GateWayMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-consul-payment-8005/target/classes/springcloud/PaymentMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-hystrix-payment-8001/target/classes/com/demo/springcloud/PaymentMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-payment-8001/target/classes/com/demo/springcloud/PaymentMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-payment-8002/target/classes/com/demo/springcloud/PaymentMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order-80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order-80/src/main/java/com/demo/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order-80/src/main/java/com/demo/springcloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order-80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order-80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order-80/target/classes/com/demo/springcloud/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment-8001/src/main/java/com/demo/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment-8001/src/main/java/com/demo/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment-8001/target/classes/com/demo/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment-8001/target/classes/com/demo/springcloud/controller/PaymentController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,16 +127,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StreamMqMain8802">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.OrderMain80">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,6 +196,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.GateWayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashBoardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-hystrix-dashboard-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.springcloud.HystrixDashBoardMain9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -309,6 +297,7 @@
       <item itemvalue="Spring Boot.HystrixPaymentMain8001" />
       <item itemvalue="Spring Boot.StreamMqMain8801" />
       <item itemvalue="Spring Boot.StreamMqMain8802" />
+      <item itemvalue="Spring Boot.HystrixDashBoardMain9001" />
     </list>
     <recent_temporary>
       <list>
@@ -335,7 +324,8 @@
       <workItem from="1608344837660" duration="15241000" />
       <workItem from="1608431818496" duration="2882000" />
       <workItem from="1608436348465" duration="10039000" />
-      <workItem from="1608519534262" duration="13619000" />
+      <workItem from="1608519534262" duration="14893000" />
+      <workItem from="1608608370273" duration="2841000" />
     </task>
     <servers />
   </component>
@@ -364,6 +354,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1608533004643">
@@ -406,38 +397,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608275743141" />
-    <state width="1293" height="277" key="GridCell.Tab.0.bottom" timestamp="1608544113465">
+    <state width="1293" height="277" key="GridCell.Tab.0.bottom" timestamp="1608614862923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608544113465" />
-    <state width="1293" height="277" key="GridCell.Tab.0.center" timestamp="1608544113464">
+    <state width="1293" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608614862923" />
+    <state width="1293" height="277" key="GridCell.Tab.0.center" timestamp="1608614862923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608544113464" />
-    <state width="1293" height="277" key="GridCell.Tab.0.left" timestamp="1608544113464">
+    <state width="1293" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608614862923" />
+    <state width="1293" height="277" key="GridCell.Tab.0.left" timestamp="1608614862923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608544113464" />
-    <state width="1293" height="277" key="GridCell.Tab.0.right" timestamp="1608544113464">
+    <state width="1293" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608614862923" />
+    <state width="1293" height="277" key="GridCell.Tab.0.right" timestamp="1608614862923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608544113464" />
-    <state width="1293" height="277" key="GridCell.Tab.1.bottom" timestamp="1608544113465">
+    <state width="1293" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608614862923" />
+    <state width="1293" height="277" key="GridCell.Tab.1.bottom" timestamp="1608614862924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608544113465" />
-    <state width="1293" height="277" key="GridCell.Tab.1.center" timestamp="1608544113465">
+    <state width="1293" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608614862924" />
+    <state width="1293" height="277" key="GridCell.Tab.1.center" timestamp="1608614862924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608544113465" />
-    <state width="1293" height="277" key="GridCell.Tab.1.left" timestamp="1608544113465">
+    <state width="1293" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608614862924" />
+    <state width="1293" height="277" key="GridCell.Tab.1.left" timestamp="1608614862923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608544113465" />
-    <state width="1293" height="277" key="GridCell.Tab.1.right" timestamp="1608544113465">
+    <state width="1293" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608614862923" />
+    <state width="1293" height="277" key="GridCell.Tab.1.right" timestamp="1608614862924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608544113465" />
+    <state width="1293" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608614862924" />
     <state width="1293" height="274" key="GridCell.Tab.2.bottom" timestamp="1608282181714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -494,11 +485,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider-payment-8001/src/main/java/com/demo/springcloud/service/PaymentServiceImpl.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
           <option name="timeStamp" value="9" />

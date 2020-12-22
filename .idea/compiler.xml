@@ -26,7 +26,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="config-client-3355" target="1.8" />
       <module name="cosumer-order-80" target="1.8" />
       <module name="provider-payment-8001 (1)" target="1.8" />
       <module name="provider-payment-8004" target="1.8" />
