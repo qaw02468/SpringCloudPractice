@@ -27,6 +27,8 @@
         <module>config-client-3366</module>
         <module>stream-rabbitmq-provider-8801</module>
         <module>stream-rabbitmq-consumer-8802</module>
+        <module>provider-alibaba-payment-9001</module>
+        <module>consumer-alibaba-order-83</module>
     </modules>
 
     <properties>

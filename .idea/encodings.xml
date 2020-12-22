@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/config-client-3355/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-client-3366/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-client-3366/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-alibaba-order-83/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-alibaba-order-83/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-feign-hystrix-order-80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-feign-hystrix-order-80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-feign-order-80/src/main/java" charset="UTF-8" />
@@ -23,6 +25,8 @@
     <file url="file://$PROJECT_DIR$/eureka-server-7002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-gateway-9527/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-gateway-9527/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-alibaba-payment-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-alibaba-payment-9001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-consul-payment-8005/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-consul-payment-8005/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-hystrix-payment-8001/src/main/java" charset="UTF-8" />
